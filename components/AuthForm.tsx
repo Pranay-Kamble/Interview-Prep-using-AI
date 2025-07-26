@@ -33,7 +33,7 @@ const AuthForm = ({type} : {type: FormType}) => {
             name: "",
             email: "",
             password: ""
-        },
+        }
     })
 
     function onSubmit(values: z.infer<typeof formSchema>) {
